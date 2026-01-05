@@ -9,7 +9,7 @@ Gun kills Snake → Gun wins
 """
 #there is a module for generating random numbers:
 import random
-computer=random.choice([1,0,-1])
+computer = random.choice([1,0,-1])
 youstr = input("Enter your choice either s for Snake, w for Water, g for Gun:")
 youdict = {"s": 1,"w":-1,"g":0}
 compdict = {1:"s",-1:"w",0:"g"}
